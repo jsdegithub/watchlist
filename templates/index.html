@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -6,12 +6,12 @@
 </head>
 <body>
     <h2>{{ name }}'s Watchlist</h2>
-    {# Ê¹ÓÃ length ¹ıÂËÆ÷»ñÈ¡ movies ±äÁ¿µÄ³¤¶È #}
+    {# ä½¿ç”¨ length è¿‡æ»¤å™¨è·å– movies å˜é‡çš„é•¿åº¦ #}
     <p>{{ movies|length }} Titles</p>
     <ul>
-        {% for movie in movies %}  {# µü´ú movies ±äÁ¿ #}
-        <li>{{ movie.title }} - {{ movie.year }}</li>  {# µÈÍ¬ÓÚ movie['title'] #}
-        {% endfor %}  {# Ê¹ÓÃ endfor ±êÇ©½áÊø for Óï¾ä #}
+        {% for movie in movies %}  {# è¿­ä»£ movies å˜é‡ #}
+        <li>{{ movie.title }} - {{ movie.year }}</li>  {# ç­‰åŒäº movie['title'] #}
+        {% endfor %}  {# ä½¿ç”¨ endfor æ ‡ç­¾ç»“æŸ for è¯­å¥ #}
     </ul>
     <footer>
         <small>&copy; 2018 <a href="http://helloflask.com/tutorial">HelloFlask</a></small>
