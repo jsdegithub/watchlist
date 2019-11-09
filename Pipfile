@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 flask = "*"
 python-dotenv = {index = "https://pypi.doubanio.com/simple/",version = "*"}
+flask-sqlalchemy = {index = "https://pypi.doubanio.com/simple/",version = "*"}
 
 [requires]
 python_version = "3.6"
