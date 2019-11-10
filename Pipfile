@@ -9,6 +9,7 @@ verify_ssl = true
 flask = "*"
 python-dotenv = {index = "https://pypi.doubanio.com/simple/",version = "*"}
 flask-sqlalchemy = {index = "https://pypi.doubanio.com/simple/",version = "*"}
+flask-login = {index = "https://pypi.doubanio.com/simple/",version = "*"}
 
 [requires]
 python_version = "3.6"
